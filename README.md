@@ -12,6 +12,8 @@ Once the application is running, transition slowly into the application picker, 
 
 Two seconds after you initiate the transition, the application request a scene refresh to simulate sync data coming in off the network that requires a UI state update.
 
+On an iPad, this bug can also happen if a scene session refresh is made while in 2-up mode, and moving the splitter.
+
 ### Expected Results:
 
 The UI state updates. (In this sample app, there should be no visual change.)
